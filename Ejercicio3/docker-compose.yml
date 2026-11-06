@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  hilos_lock_cine:
+    build: .
+    container_name: ejercicio_hilos_lock_cine
+    stdin_open: true
+    tty: true
