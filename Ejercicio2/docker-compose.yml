@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  concurrente:
+    build: .
+    container_name: proceso_desayuno_concurrente
+    stdin_open: true
+    tty: true
