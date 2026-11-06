@@ -1,0 +1,6 @@
+services:
+  cafe:
+    build: .
+    container_name: proceso_cafe_secuencial
+    stdin_open: true
+    tty: true
